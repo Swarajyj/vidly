@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const MovieForm = ({ match, history }) => {
   return (
@@ -13,7 +13,6 @@ const MovieForm = ({ match, history }) => {
       </button>
     </div>
   );
-  return;
 };
 
 export default MovieForm;
